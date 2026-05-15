@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://www.ccnts.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/?lang=es"/>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://www.ccnts.com/services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/services?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/services?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/services?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/services?lang=es"/>
+  </url>
+
+  <!-- Académie -->
+  <url>
+    <loc>https://www.ccnts.com/academy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/academy?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/academy?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/academy?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/academy?lang=es"/>
+  </url>
+
+  <!-- À propos -->
+  <url>
+    <loc>https://www.ccnts.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/about?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/about?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/about?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/about?lang=es"/>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.ccnts.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/contact?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/contact?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/contact?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/contact?lang=es"/>
+  </url>
+
+  <!-- Data Store -->
+  <url>
+    <loc>https://www.ccnts.com/data-store</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/data-store?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/data-store?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/data-store?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/data-store?lang=es"/>
+  </url>
+
+  <!-- Projets -->
+  <url>
+    <loc>https://www.ccnts.com/projects</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ccnts.com/projects?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ccnts.com/projects?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ccnts.com/projects?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ccnts.com/projects?lang=es"/>
+  </url>
+
+  <!-- Cours principaux -->
+  <url>
+    <loc>https://www.ccnts.com/academy/qgis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ccnts.com/academy/sentinel2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ccnts.com/academy/thematic-mapping</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ccnts.com/academy/buffer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ccnts.com/academy/historical-maps</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ccnts.com/academy/google-earth-engine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ccnts.com/academy/interactive-maps</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
