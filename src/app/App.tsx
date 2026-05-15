@@ -15,6 +15,7 @@ import { Footer } from "./components/layout/Footer";
 import { PageTransition } from "./components/PageTransition";
 import { AnimatePresence } from "motion/react";
 import { Toaster } from "sonner@2.0.3";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // Import i18n configuration
 import './lib/i18n';
@@ -343,6 +344,7 @@ export default function App() {
       <AuthProvider>
         <Router>
           <Toaster position="top-right" richColors closeButton />
+          <SpeedInsights />
           <div className="min-h-screen flex flex-col">
             <TopBar />
             <Header />
