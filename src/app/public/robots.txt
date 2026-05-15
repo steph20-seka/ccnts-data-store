@@ -1,0 +1,24 @@
+# robots.txt pour CCNTS
+# https://www.ccnts.com/robots.txt
+
+# Permettre à tous les robots d'indexer le site
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ccnts.com/sitemap.xml
+
+# Bloquer les pages d'authentification (facultatif pour la confidentialité)
+Disallow: /login
+Disallow: /signup
+Disallow: /reset-password
+
+# Bloquer les pages privées
+Disallow: /my-courses
+Disallow: /my-certificates
+
+# Bloquer les quiz (redondant avec les cours)
+Disallow: /academy/*/quiz
+
+# Crawl-delay (optionnel - uniquement si nécessaire)
+# Crawl-delay: 1

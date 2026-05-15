@@ -1,0 +1,17 @@
+{
+  "name": "CCNTS – Cabinet de Cartographie Numérique, de Télédétection et de Statistiques",
+  "short_name": "CCNTS",
+  "description": "Cabinet de Cartographie Numérique, de Télédétection et de Statistiques - Expertise géospatiale professionnelle",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#1e3a8a",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}

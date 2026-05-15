@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Profils utilisateur
+    // Les utilisateurs peuvent lire et écrire leur propre profil
+    match /profiles/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Progression des cours
+    // Les utilisateurs peuvent lire et modifier leur propre progression
+    match /course_progress/{progressId} {
+      allow read: if request.auth != null && 
+                     request.auth.uid == resource.data.user_id;
+      allow write: if request.auth != null && 
+                      request.auth.uid == request.resource.data.user_id;
+    }
+    
+    // Résultats des quiz
+    // Les utilisateurs peuvent lire et modifier leurs propres résultats
+    match /quiz_results/{quizId} {
+      allow read: if request.auth != null && 
+                     request.auth.uid == resource.data.user_id;
+      allow write: if request.auth != null && 
+                      request.auth.uid == request.resource.data.user_id;
+    }
+    
+    // Certificats
+    // Lecture publique pour vérification, création seulement par le propriétaire
+    match /certificates/{certId} {
+      // Tout le monde peut lire les certificats (pour vérification publique)
+      allow read: if true;
+      
+      // Seul l'utilisateur peut créer son propre certificat
+      allow create: if request.auth != null && 
+                       request.auth.uid == request.resource.data.user_id;
+      
+      // Les certificats sont immuables (pas de modification/suppression)
+      allow update, delete: if false;
+    }
+    
+    // Par défaut : refuser tout accès
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
